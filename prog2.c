@@ -2,17 +2,15 @@
 
 int main()
 {
-int a, b, c, d;
+	int a, b, c, d;
 
-// Increment operator
-printf("Enter any integer: ");
-scanf("%d", &a);
+	// Increment operator
+	printf("Enter any integer: ");
+	scanf("%d", &a);
 
-a++;
-printf("\nPost Increment Value: %d\n", a);
+	printf("\nPost Increment Value of %d is : %d\n",a, a++);
 
-++a;
-printf("\nPre Increment value: %d\n", a);
+	printf("\nPre Increment value of %d is : %d\n",a, ++a);
 
 // Decrement operator
 printf("\nEnter any integer: ");
